@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">205644893396-tpu4blep2k200s2804dugonq85849l29.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://trilingo-f3a83.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">205644893396</string>
+    <string name="google_api_key" translatable="false">AIzaSyDmWTgP9mfGa_BNm2Cbzemsdt7fDCbKNLc</string>
+    <string name="google_app_id" translatable="false">1:205644893396:android:4d8077cbdd7623cabeff41</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDmWTgP9mfGa_BNm2Cbzemsdt7fDCbKNLc</string>
+    <string name="google_storage_bucket" translatable="false">trilingo-f3a83.appspot.com</string>
+    <string name="project_id" translatable="false">trilingo-f3a83</string>
+</resources>

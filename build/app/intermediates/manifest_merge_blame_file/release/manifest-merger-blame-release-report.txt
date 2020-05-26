@@ -1,0 +1,430 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.trilingo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:google_sign_in] D:\Abhishek inten\Trilingo-master\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+11-->[:google_sign_in] D:\Abhishek inten\Trilingo-master\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:firebase_analytics] D:\Abhishek inten\Trilingo-master\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
+12-->[:firebase_analytics] D:\Abhishek inten\Trilingo-master\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[:firebase_analytics] D:\Abhishek inten\Trilingo-master\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:9:5-68
+13-->[:firebase_analytics] D:\Abhishek inten\Trilingo-master\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:9:22-65
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:26:5-82
+14-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:26:22-79
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+19
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+21
+22    <application
+22-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:4:5-43:19
+23        android:name="io.flutter.app.FlutterApplication"
+23-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:5:9-57
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\3aaf6e5219b7f981ec263df919098c6f\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:7:9-43
+26        android:label="Trilingo"
+26-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:6:9-33
+27        android:supportsRtl="true" >
+27-->[com.facebook.android:facebook-login:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\bda47f6b450d48909b144825bcf24798\jetified-facebook-login-5.5.1\AndroidManifest.xml:28:18-44
+28        <activity
+28-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:9:9-25:20
+29            android:name="com.example.trilingo.MainActivity"
+29-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:10:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:13:13-163
+31            android:hardwareAccelerated="true"
+31-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:14:13-47
+32            android:launchMode="singleTop"
+32-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:11:13-43
+33            android:theme="@style/LaunchTheme"
+33-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:12:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:15:13-55
+35            <intent-filter>
+35-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:17:13-20:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:18:17-68
+36-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:18:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:19:17-76
+38-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:19:27-74
+39            </intent-filter>
+40            <intent-filter>
+40-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:21:13-24:29
+41                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+41-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:22:17-69
+41-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:22:25-66
+42
+43                <category android:name="android.intent.category.DEFAULT" />
+43-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:23:17-76
+43-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:23:27-73
+44            </intent-filter>
+45        </activity>
+46
+47        <meta-data
+47-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:26:9-107
+48            android:name="com.facebook.sdk.ApplicationId"
+48-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:26:20-65
+49            android:value="@string/facebook_app_id" />
+49-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:26:66-105
+50
+51        <activity
+51-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:27:9-28:102
+52            android:name="com.facebook.FacebookActivity"
+52-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:27:19-63
+53            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+53-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:27:64-152
+54            android:label="@string/app_name"
+54-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:28:67-99
+55            android:theme="@style/com_facebook_activity_theme" />
+55-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\c5e3dc2ba8b0976ec7d5af2d9673131f\jetified-facebook-common-5.5.1\AndroidManifest.xml:32:13-63
+56        <activity
+56-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:30:5-37:16
+57            android:name="com.facebook.CustomTabActivity"
+57-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:30:15-60
+58            android:exported="true" >
+58-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:30:61-84
+59            <intent-filter>
+59-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:31:5-36:21
+60                <action android:name="android.intent.action.VIEW" />
+60-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:32:9-61
+60-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:32:17-58
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:23:17-76
+62-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:23:27-73
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:34:9-70
+63-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:34:19-67
+64
+65                <data android:scheme="@string/fb_login_protocol_scheme" />
+65-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:35:9-67
+65-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:35:15-64
+66            </intent-filter>
+67        </activity>
+68        <!--
+69             Don't delete the meta-data below.
+70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+71        -->
+72        <meta-data
+72-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:40:9-42:33
+73            android:name="flutterEmbedding"
+73-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:41:13-44
+74            android:value="2" />
+74-->D:\Abhishek inten\Trilingo-master\android\app\src\main\AndroidManifest.xml:42:13-30
+75
+76        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+76-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+76-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:18-101
+77            <intent-filter>
+77-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:29
+78                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+78-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:17-78
+78-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:25-75
+79            </intent-filter>
+80        </service>
+81        <service
+81-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:9-17:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:18-89
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\ba2f81b57c2cbe060a672840d32ad1e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\b44810f6b927645d562c0123c08455ca\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
+85            <meta-data
+85-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-16:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+86-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:17-127
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:17-82
+88            <meta-data
+88-->[:cloud_firestore] D:\Abhishek inten\Trilingo-master\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+89-->[:cloud_firestore] D:\Abhishek inten\Trilingo-master\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-133
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:cloud_firestore] D:\Abhishek inten\Trilingo-master\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+91            <meta-data
+91-->[:firebase_auth] D:\Abhishek inten\Trilingo-master\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+92-->[:firebase_auth] D:\Abhishek inten\Trilingo-master\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-122
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_auth] D:\Abhishek inten\Trilingo-master\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[:firebase_storage] D:\Abhishek inten\Trilingo-master\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+95-->[:firebase_storage] D:\Abhishek inten\Trilingo-master\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_storage] D:\Abhishek inten\Trilingo-master\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+97            <meta-data
+97-->[:firebase_core] D:\Abhishek inten\Trilingo-master\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+98-->[:firebase_core] D:\Abhishek inten\Trilingo-master\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_core] D:\Abhishek inten\Trilingo-master\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+100            <meta-data
+100-->[:firebase_analytics] D:\Abhishek inten\Trilingo-master\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+101-->[:firebase_analytics] D:\Abhishek inten\Trilingo-master\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:14:17-127
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:firebase_analytics] D:\Abhishek inten\Trilingo-master\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:15:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\b44810f6b927645d562c0123c08455ca\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+104                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+104-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\b44810f6b927645d562c0123c08455ca\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\b44810f6b927645d562c0123c08455ca\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+107                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+107-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\60c4ab5ff1b301653c963d9e82780b7d\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+110                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+110-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\60c4ab5ff1b301653c963d9e82780b7d\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\60c4ab5ff1b301653c963d9e82780b7d\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-database:18.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\23e366f334f033e1510630e586cec5f1\firebase-database-18.0.1\AndroidManifest.xml:32:13-34:85
+113                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+113-->[com.google.firebase:firebase-database:18.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\23e366f334f033e1510630e586cec5f1\firebase-database-18.0.1\AndroidManifest.xml:33:17-109
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-database:18.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\23e366f334f033e1510630e586cec5f1\firebase-database-18.0.1\AndroidManifest.xml:34:17-82
+115            <meta-data
+115-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2ac2a200998fb46fe2bd1031b8a7fdf7\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+116                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+116-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2ac2a200998fb46fe2bd1031b8a7fdf7\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2ac2a200998fb46fe2bd1031b8a7fdf7\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+119                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+119-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+121        </service>
+122        <!--
+123             FirebaseMessagingService performs security checks at runtime,
+124             but set to not exported to explicitly avoid allowing another app to call it.
+125        -->
+126        <service
+126-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\b011e3147ef3ecf4ddfa1de0b965ab1b\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
+127            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+127-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\b011e3147ef3ecf4ddfa1de0b965ab1b\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
+128            android:exported="false" >
+128-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\b011e3147ef3ecf4ddfa1de0b965ab1b\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
+129            <intent-filter android:priority="-500" >
+129-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:29
+130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+130-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:17-78
+130-->[:firebase_messaging] D:\Abhishek inten\Trilingo-master\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:10:25-75
+131            </intent-filter>
+132        </service>
+133
+134        <activity
+134-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+135            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+135-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+136            android:excludeFromRecents="true"
+136-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+137            android:exported="true"
+137-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+138            android:launchMode="singleTask"
+138-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+139            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+139-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+140-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+141
+142        <receiver
+142-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+143            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+143-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+144            android:exported="true"
+144-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+145            android:permission="com.google.android.c2dm.permission.SEND" >
+145-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+146            <intent-filter>
+146-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+147                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+147-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+147-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\8ae3a27e5f765ecccfa84ccab34e1473\firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+148            </intent-filter>
+149        </receiver>
+150
+151        <provider
+151-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\ba2f81b57c2cbe060a672840d32ad1e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+152            android:name="com.google.firebase.provider.FirebaseInitProvider"
+152-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\ba2f81b57c2cbe060a672840d32ad1e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+153            android:authorities="com.example.trilingo.firebaseinitprovider"
+153-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\ba2f81b57c2cbe060a672840d32ad1e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+154            android:exported="false"
+154-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\ba2f81b57c2cbe060a672840d32ad1e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+155            android:initOrder="100" />
+155-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\ba2f81b57c2cbe060a672840d32ad1e3\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+156
+157        <activity
+157-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+158            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+158-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+159            android:excludeFromRecents="true"
+159-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+162        <!--
+163            Service handling Google Sign-In user revocation. For apps that do not integrate with
+164            Google Sign-In, this service will never be started.
+165        -->
+166        <service
+166-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+167            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+167-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+168            android:exported="true"
+168-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+169            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+169-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\cd20f8244932f9b7aca3efa5926f0976\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+170        <uses-library
+170-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+171            android:name="org.apache.http.legacy"
+171-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+172            android:required="false" />
+172-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+173
+174        <activity
+174-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+175            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+175-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+177-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+178
+179        <receiver
+179-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+180            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+180-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+181            android:enabled="true"
+181-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+182            android:exported="false" >
+182-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+183        </receiver>
+184        <receiver
+184-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+185            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+185-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+187            android:exported="true"
+187-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+188            android:permission="android.permission.INSTALL_PACKAGES" >
+188-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+189            <intent-filter>
+189-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+190                <action android:name="com.android.vending.INSTALL_REFERRER" />
+190-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+190-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+191            </intent-filter>
+192        </receiver>
+193
+194        <service
+194-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+195            android:name="com.google.android.gms.measurement.AppMeasurementService"
+195-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+197            android:exported="false" />
+197-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+198        <service
+198-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+199            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+199-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+200            android:enabled="true"
+200-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+202            android:permission="android.permission.BIND_JOB_SERVICE" />
+202-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+203
+204        <meta-data
+204-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\64506bb283aec2502b584f74a56bc4b3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+205            android:name="com.google.android.gms.version"
+205-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\64506bb283aec2502b584f74a56bc4b3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+206            android:value="@integer/google_play_services_version" />
+206-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\64506bb283aec2502b584f74a56bc4b3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+207
+208        <activity android:name="com.facebook.CustomTabMainActivity" />
+208-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\c5e3dc2ba8b0976ec7d5af2d9673131f\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:9-71
+208-->[com.facebook.android:facebook-common:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\c5e3dc2ba8b0976ec7d5af2d9673131f\jetified-facebook-common-5.5.1\AndroidManifest.xml:33:19-68
+209        <!--
+210         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+211         with the application context. This config is merged in with the host app's manifest,
+212         but there can only be one provider with the same authority activated at any given
+213         point; so if the end user has two or more different apps that use Facebook SDK, only the
+214         first one will be able to use the provider. To work around this problem, we use the
+215         following placeholder in the authority to identify each host application as if it was
+216         a completely different provider.
+217        -->
+218        <provider
+218-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:39:9-42:40
+219            android:name="com.facebook.internal.FacebookInitProvider"
+219-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:40:13-70
+220            android:authorities="com.example.trilingo.FacebookInitProvider"
+220-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:41:13-72
+221            android:exported="false" />
+221-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:42:13-37
+222
+223        <receiver
+223-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:44:9-50:20
+224            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+224-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:45:13-86
+225            android:exported="false" >
+225-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:46:13-37
+226            <intent-filter>
+226-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:47:13-49:29
+227                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+227-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:17-95
+227-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:48:25-92
+228            </intent-filter>
+229        </receiver>
+230        <receiver
+230-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:51:9-58:20
+231            android:name="com.facebook.CampaignTrackingReceiver"
+231-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:52:13-65
+232            android:exported="true"
+232-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:53:13-36
+233            android:permission="android.permission.INSTALL_PACKAGES" >
+233-->[com.facebook.android:facebook-core:5.5.1] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\2c76a47da27ee45583d2a9687c7713c7\jetified-facebook-core-5.5.1\AndroidManifest.xml:54:13-69
+234            <intent-filter>
+234-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+235                <action android:name="com.android.vending.INSTALL_REFERRER" />
+235-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+235-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\Prashant\.gradle\caches\transforms-2\files-2.1\f6102e8fd516b4de9e5fd43be2b2b148\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+236            </intent-filter>
+237        </receiver>
+238    </application>
+239
+240</manifest>
